@@ -28,9 +28,9 @@ android {
 }
 
 dependencies {
-  compile 'com.android.support:support-v4:+'
-  compile 'com.squareup.dagger:dagger:1.2.+'
-  compile 'com.squareup.dagger:dagger-compiler:1.2.+'
+  compile 'com.android.support:support-v4:22.0.0'
+  compile 'com.squareup.dagger:dagger:1.2.2'
+  compile 'com.squareup.dagger:dagger-compiler:1.2.2'
 }
 
 apply from: 'https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle'
