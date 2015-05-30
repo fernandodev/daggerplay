@@ -28,14 +28,13 @@ repositories {
 And finnaly add this line inside `dependencies { }` section:
 
 ```gradle
-compile 'com.squareup.dagger:dagger:1.2.+'
-compile 'com.squareup.dagger:dagger-compiler:1.2.+'
 compile 'com.github.fernandodev.daggerplay:daggerplay:+'
 ```
 
 The `+` symbol indicates to gradle to get the latest version.
 
 * See the sample if there are any doubts.
+* DaggerPlay uses compile 'dagger:1.2.+' and 'dagger-compiler:1.2.+'
 
 ## Using
 
